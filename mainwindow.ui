@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1147</width>
+    <height>498</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Grocery Store Manager 1.0</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(67, 133, 238, 255), stop:1 rgba(110, 255, 172, 255));</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="1">
+     <widget class="QPushButton" name="btnUpdateItem">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(253, 205, 1);
+color: rgb(0, 0, 0);
+border: 1px solid rgb(2, 3, 7, 0.4);
+border-radius: 20%;
+height:100%;</string>
+      </property>
+      <property name="text">
+       <string>Update
+Item</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPushButton" name="btnSpoiledItem">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(135, 227, 63);
+color: rgb(0, 0, 0);
+border: 1px solid rgb(2, 3, 7, 0.4);
+border-radius: 20%;
+height:100%;</string>
+      </property>
+      <property name="text">
+       <string>Spoiled 
+ Items</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QPushButton" name="btnSoldItems">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(91, 55, 190);
+color: rgb(0, 0, 0);
+border: 1px solid rgb(2, 3, 7, 0.4);
+border-radius: 20%;
+height:100%;</string>
+      </property>
+      <property name="text">
+       <string>Sold
+Items</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QPushButton" name="btnFindItem">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(245, 147, 0);
+color: rgb(0, 0, 0);
+border: 1px solid rgb(2, 3, 7, 0.4);
+border-radius: 20%;
+height:100%;</string>
+      </property>
+      <property name="text">
+       <string>Find
+Item</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QPushButton" name="btnAddItem">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 241, 0);
+selection-background-color: rgb(209, 209, 209);
+color: rgb(0, 0, 0);
+border: 1px solid rgb(2, 3, 7, 0.4);
+border-radius: 20%;
+height:100%;
+</string>
+      </property>
+      <property name="text">
+       <string>Add
+ Item</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QPushButton" name="btnAvailableItems">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(121, 32, 162);
+color: rgb(0, 0, 0);
+border: 1px solid rgb(2, 3, 7, 0.4);
+border-radius: 20%;
+height:100%;</string>
+      </property>
+      <property name="text">
+       <string>Available 
+ Items</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QPushButton" name="btnReport">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(39, 181, 81);
+color: rgb(0, 0, 0);
+border: 1px solid rgb(2, 3, 7, 0.4);
+border-radius: 20%;
+height:100%;</string>
+      </property>
+      <property name="text">
+       <string>Report</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="btnExpiredItems">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(167, 50, 175);
+color: rgb(0, 0, 0);
+border: 1px solid rgb(2, 3, 7, 0.4);
+border-radius: 20%;
+height:100%;</string>
+      </property>
+      <property name="text">
+       <string>Expired 
+ Items</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QPushButton" name="btnReturnItems">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(60, 204, 56);
+color: rgb(0, 0, 0);
+border: 1px solid rgb(2, 3, 7, 0.4);
+border-radius: 20%;
+height:100%;</string>
+      </property>
+      <property name="text">
+       <string>Return 
+ Items</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/assets">
+        <file>img/addItem.png</file>
+        <file>img/availableItem.png</file>
+        <file>img/expiredItem.png</file>
+        <file>img/findItem.png</file>
+        <file>img/reportItem.png</file>
+        <file>img/returnItem.png</file>
+        <file>img/soldItem.png</file>
+        <file>img/spoiledItem.png</file>
+        <file>img/updateItem.png</file>
+    </qresource>
+</RCC>
